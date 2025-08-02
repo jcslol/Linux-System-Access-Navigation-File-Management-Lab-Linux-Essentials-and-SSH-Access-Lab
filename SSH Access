@@ -4,3 +4,21 @@ Connect via CMD: ssh ip
         Example: ssh 192.168.0.110
 Connect via PuTTY: Install PuTTY software, then enter the IP address of your Linux machine in the Host Name (or IP address) field. 
                   On the right side, make sure the Port is set to 22 (default for SSH). Finally, click Open to start the connection.
+
+Ensure SSH is Enabled on Linux: (Kali/ Ubuntu)
+                            sudo apt update
+                            sudo apt install openssh-server
+                            sudo systemctl start ssh
+                            ip a
+Ensure SSH is Enabled on Linux: (Red Hat/ CentOS)
+                            sudo apt update
+                            sudo apt install openssh-server
+                            sudo systemctl start ssh
+                            sudo systemctl status ssh
+                            ip a
+
+How to get ip from your linux meatchine:
+                            Your Linux VM IP: ip a
+                            How to find username (whoami)
+                            Steps to use PuTTY/CMD to connect
+
