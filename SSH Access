@@ -1,1 +1,6 @@
-
+Windows 10 and all later versions have a built-in feature that allows you to connect to a Linux machine directly using the Command Prompt (CMD).
+If you’re using an older version of Windows (before Windows 10), you’ll need to use PuTTY to connect to your Linux machine.
+Connect via CMD: ssh ip 
+        Example: ssh 192.168.0.110
+Connect via PuTTY: Install PuTTY software, then enter the IP address of your Linux machine in the Host Name (or IP address) field. 
+                  On the right side, make sure the Port is set to 22 (default for SSH). Finally, click Open to start the connection.
