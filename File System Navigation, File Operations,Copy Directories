@@ -1,0 +1,11 @@
+View file info: ls -l, ls -ltr
+Absolute path (starts with /)
+Relative path (based on current location)
+Create file: Touch
+Create directory: mkdir
+Move file: mv
+Move directoriy: mv source target
+Copy file: cp source target
+Copy directory: cp -r source target
+Point working directory: pwd
+Who is the user: whoami
